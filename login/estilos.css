@@ -24,17 +24,19 @@ main {
     top:80px;
     left:500px;
     width:380px;
-    height:230px;
+    height:280px;
     border-radius: 20px;
-    border: lightseagreen 1px solid;
-    background : #E9FEFA;
+    border: #C3F1FF 1px solid;
+    background : #F2FCFF;
     text-align: center;
 }
 
 .caja-principal h1 {
-    font-size:20px;
-    font-family: calibri light;
-    color: #469F85;
+    font-size:30px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    color: #5AD2AE;
 }
 
 .formulario-login {
@@ -47,14 +49,9 @@ main {
   justify-content: center;
 }
 
-.formulario-login small {
-  
-  text-align: center;
-}
-
 .formulario-login input {
   padding: 10px;
-  border: lightseagreen 1px solid;
+  border: #C3F1FF 1px solid;
   border-radius: 10px;
   height: 34px;
 }
@@ -62,7 +59,8 @@ main {
 .formulario-login button {
   border-radius: 10px;
   height: 34px;
-  background: #469F85;
+  border: 1px solid #469F85;
+  background: #5AD2AE;
 }
 
 .formulario-login button p{
@@ -75,13 +73,27 @@ main {
   background: grey;
 }
 
-.formulario-login small {
-  margin-top: 0px;
-  color: gray;
+.corazon{
+  color: #AFAFAF;
 }
 
+.mensaje-error{
+  font-size: 14px;
+  text-align: center;
+  color: red;
+  font-family: calibri;
+}
 
 .formulario-login input::placeholder {
   color: #5AD2AE;
   opacity: 100;
+}
+
+.hide {
+  display: none;
+}
+
+
+.visible {
+  display: block;
 }

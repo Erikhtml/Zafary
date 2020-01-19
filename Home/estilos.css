@@ -1,0 +1,48 @@
+body { 
+    margin: 0;
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    display: block;
+}
+
+header {
+    height: 25px;
+    text-align: center;
+    padding-top: 0px;
+    font-family: Helvetica;
+    font-size: 35px; 
+    background-color: #F2FCFF;
+}
+
+section {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    background-color: #F2FCFF;
+    height: 380px;
+}
+
+.titulo {    
+    padding-right: 280px;
+    padding-left: 300px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 35px; 
+}   
+
+.imagen {
+    padding-top: 50px;
+    padding-left: 218px;
+}
+
+img {
+    width: 500px;
+    height: 200%px;    
+}
+
+

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+main {
+    display: block:
+}
+
+.titulo{
+    padding-left: 410px;
+    font-size:40px;
+    font-family: calibri;
+}
+
+.caja-principal {
+    position:relative;
+    top:10px;
+    left:300px;
+    width:320px;
+    height:560px;
+    border-radius: 20px;
+    border: 2px solid #C3F1FF;;
+    background : #D5F5FF;
+    text-align: center;
+}
+
+h1 {
+    font-size:20px;
+    font-family: calibri light;
+}
+
+.caja-artistas {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: 85px 85px 85px; 
+    justify-content: center;
+}
+
+article {
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #469F85;
+    background : #5AD2AE;
+    width:85px;
+    height:85px;
+}
+
+img {
+    width: 55px;
+    height: 55px;
+    border-radius: 45%;
+    padding: 20;
+}
+
+.nombre-artista {
+    color: white;
+    font-size:10px;
+    font-family:Courier;
+}
+
+.caja-artistas article:hover{
+    cursor: pointer;
+    background: yellowgreen;
